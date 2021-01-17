@@ -26,20 +26,20 @@ AddEventHandler("papa:boxreward", function()
   local user_id = vRP.getUserId({source})
   local player = vRP.getUserSource({user_id})
 
-  local noroc = math.random(0, 150)
-  local suma = math.random(1, 3)
+  local papa = math.random(0, 150)
+  local antal = math.random(1, 3)
 
-  if noroc >= 0 and noroc <= 25 then
-      vRP.giveInventoryItem({user_id, "vodka", suma})
-  elseif noroc >=25 and noroc <=50 then
-      vRP.giveInventoryItem({user_id, "kebab", suma})
-  elseif noroc >=50 and noroc <=75 then
-      vRP.giveInventoryItem({user_id, "pose", suma})
-  elseif noroc >=75 and noroc <=100 then
-      vRP.giveInventoryItem({user_id, "lsd", suma})
-  elseif noroc >=100 and noroc <=125 then
-      vRP.giveInventoryItem({user_id, "kokain", suma})
-  elseif noroc >=125 and noroc <=150 then
-      vRP.giveInventoryItem({user_id, "donut", suma})
+  if papa >= 0 and papa <= 25 then
+      vRP.giveInventoryItem({user_id, "vodka", antal})
+  elseif papa >=25 and papa <=50 then
+      vRP.giveInventoryItem({user_id, "kebab", antal})
+  elseif papa >=50 and papa <=75 then
+      vRP.giveInventoryItem({user_id, "pose", antal})
+  elseif papa >=75 and papa <=100 then
+      vRP.giveInventoryItem({user_id, "lsd", antal})
+  elseif papa >=100 and papa <=125 then
+      vRP.giveInventoryItem({user_id, "kokain", antal})
+  elseif papa >=125 and papa <=150 then
+      vRP.giveInventoryItem({user_id, "donut", antal})
 	end
 end)
