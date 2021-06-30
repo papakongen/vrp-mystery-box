@@ -1,14 +1,9 @@
 # vrp-mystery-box
 
 
-Video: https://streamable.com/oiy7ug
+Video: https://streamable.com/cbxd58
 
 
 Discord: papakongen#9999
 
 https://discord.gg/Z268ZGm4Nb
-
-Husk at tilføje det her til vrp/vrp/items.lua
-
-	["papabox"] = {"mystery box", "Skriv /mysterybox.", nil , 0.2},
-
