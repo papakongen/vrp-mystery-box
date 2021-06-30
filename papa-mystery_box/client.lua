@@ -27,7 +27,7 @@ RegisterCommand("mysterybox",function(source, args)
 	local plyCoords = GetEntityCoords(PlayerPedId())
     local x, y, z = table.unpack(plyCoords)
 
-    HT.Game.SpawnLocalObject("prop_box_ammo04a", vector3(x+0.95, y, z-1), function(papa_box) 
+    HT.Game.SpawnLocalObject("prop_box_ammo04a", vector3(x, y, z-1), function(papa_box) 
     loadAnimDict( "anim@amb@clubhouse@tutorial@bkr_tut_ig3@" ) 
     TaskPlayAnim(GetPlayerPed(-1), "anim@amb@clubhouse@tutorial@bkr_tut_ig3@", "machinic_loop_mechandplayer", 8.0, 1.0, -1, 2, 0, 0, 0, 0)
     FreezeEntityPosition(true)
